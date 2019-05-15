@@ -11,4 +11,9 @@ public class Cook extends FoodPreparer {
         this.birthday = birthday;
         this.salary = salary;
     }
+
+    @Override
+    public void cook() {
+        System.out.println("I cooked something great again");
+    }
 }
