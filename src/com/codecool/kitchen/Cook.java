@@ -1,7 +1,5 @@
 package com.codecool.kitchen;
 
-import java.util.Date;
-
 public class Cook extends FoodPreparer {
 
     public Cook(){}
