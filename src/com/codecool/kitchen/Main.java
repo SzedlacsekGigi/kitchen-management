@@ -3,6 +3,8 @@ package com.codecool.kitchen;
 public class Main {
 
     public static void main (String[] args) {
-        System.out.println("I'm the main class");
+        Restaurant restaurant = new Restaurant();
+        restaurant.hireEmployees();
+        restaurant.simulateDay();
     }
 }
