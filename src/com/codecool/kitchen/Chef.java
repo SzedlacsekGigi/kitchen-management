@@ -11,7 +11,7 @@ public class Chef extends FoodPreparer {
 
     public Chef(String name, Date birthday, double salary) {
         this.name = name;
-        this.birthday = birthday;
+        this.age = age;
         this.salary = salary;
     }
 

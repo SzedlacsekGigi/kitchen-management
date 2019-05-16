@@ -10,7 +10,7 @@ public class KitchenHelper extends Employee {
 
     public KitchenHelper(String name, Date birthday, double salary) {
         this.name = name;
-        this.birthday = birthday;
+        this.age = age;
         this.salary = salary;
 
 

@@ -6,9 +6,9 @@ public class Cook extends FoodPreparer {
 
     public Cook(){}
 
-    public Cook(String name, Date birthday, double salary) {
+    public Cook(String name, int age, double salary) {
         this.name = name;
-        this.birthday = birthday;
+        this.age = age;
         this.salary = salary;
     }
 
